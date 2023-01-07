@@ -189,7 +189,7 @@ body{
 
 /* Its footer and I am using float */
 #form{
-    background-color: rgb(26, 45, 45);
+    background-color: rgb(81, 65, 199);
     height: 400px;
     margin-top: 100px;
 }
@@ -247,7 +247,7 @@ background-color: rgb(26, 45, 45);
 padding-left: 5px;
 }
 #foot-email:hover{
-    background-color: rgb(30, 38, 38);
+    background-color: rgb(42, 39, 69);
 }
 #last-sub{
     margin-top: 30px;
@@ -257,6 +257,6 @@ padding-left: 5px;
 }
 #last-sub:hover{
     border: 1px solid  rgb(18, 18, 18);
-    background-color: rgb(80, 124, 124) ;
+    background-color: rgb(27, 29, 56) ;
     color: azure;
 }
