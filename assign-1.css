@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: azure;
+}
+#header{
+    height: 780px;
+    width: 100%;
+    background-color: rgb(28, 121, 202);
+    background-image: url(files/media/banner/banner2.png);
+}
+#header-h1{
+    font-size: 50px;
+    text-align: right;
+    padding-top: 180px;
+    word-spacing: 12px;
+    margin-right: 180px;
+}
+#header-p{
+    margin-left: 925px;
+    text-align: justify;
+    margin-top: 20px;
+    word-spacing: 5px;
+    font-weight: lighter;
+}
+#header-btn{
+    margin-left: 1200px;
+    margin-top: 140px;
+    padding: 18px 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(212, 255, 0);
+    
+    font-weight: bolder;
+    border: none;
+}
+#header-btn:hover{
+    background-color: green;
+    
+}
+#women{
+    /* background-color: brown; */
+    margin-top: 50px;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+}
+#women-left-pic{
+    margin-top: 180px;
+    height: 600px;
+    margin-left: 300px;
+}
+#women-right-h2{
+    margin-top: 260px;
+    
+}
+#women-right-p{
+    margin-top: 30px;
+    font-size: 12px;
+}
+.check{
+    height: 22px;
+    
+}
+#flex-icon{
+    display: inline-flex;
+    flex-direction:column;
+    gap: 15px;
+    margin-top: 40px;
+}
+#flex-icon-text{
+    margin-left: 30px;
+   margin-top: -170px;
+}
+.hi{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#women-right{
+    margin-top: 100px;
+}
+
+#skills{
+    /* background-color: aqua; */
+    height: 680px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+#skills-right-h2{
+    margin-top: 200px;
+    
+}
+#skills-p{
+    margin-left: 200px;
+}
+#skills-right-p{
+    margin-top: 12px;
+    font-size: 13px;
+}
+#skills-icon-text{
+    margin-left: 30px;
+   margin-top: -130px;
+}
+
+#skills-icon{
+    display: inline-flex;
+    flex-direction:column;
+    gap: 15px;
+    margin-top: 40px;
+}
+#skills-person{
+    height: 540px;
+    width: 690px;
+    margin-top: 60px;
+}
+#plans{
+    /* background-color: aqua; */
+    height: 380px;
+    width: 100%;
+}
+#plans-h2{
+    text-align: center;
+    margin-top: 80px;
+}
+#plan-icon{
+    display: flex;
+    gap: 130px;
+    margin-top: 70px;
+    margin-left: 320px;
+}
+.skill-name{
+    font-weight: bolder;
+}
+.web-smoke{
+    margin-left: -35px;
+}
+.smoke{
+    margin-left: -12px;
+}
+.plan-lite{
+    font-size: 13px;
+    margin-top: 10px;
+}
+#ghori{
+    /* background-color: aqua; */
+    height: 250px;
+    width: 1000px;
+    background-image: linear-gradient(90deg, rgba(73,73,196,1) 20%, rgba(0,0,0,0) 46%, rgba(20,38,78,1) 87%), url(files/media/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+#watch{
+    height: 250px;
+    width: auto;
+    margin-left: 300px;
+    margin-top: 40px;
+    
+}
+#form{
+    
+    height: 500px;
+}
+#ghori-h2{
+    margin-left: 100px;
+    padding-top: 30px;
+    color: azure;
+}
+#mindset{
+    margin-left: -25px;
+}
+#ghori-btn{
+    margin-top: 80px;
+    margin-left: 150px;
+    padding: 15px 18px;
+    border-radius: 8px;
+    border: none;
+}
+#ghori-btn:hover{
+    background-color: black;
+    color: azure;
+}
+
+/* Its footer and I am using float */
+#form{
+    background-color: rgb(26, 45, 45);
+    height: 400px;
+    margin-top: 100px;
+}
+#left-form{
+    float: left;
+    /* background-color: blue; */
+    height: 350px;
+    width: 520px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+#right-form{
+    float: right;
+    height: 350px;
+    width: 520px;
+    /* background-color: brown; */
+}
+#left-form-h2{
+    margin-top: 40px;
+}
+#left-form-p{
+    margin-top: 15px;
+    font-size: 13px;
+}
+.email-num{
+    font-size: 13px;
+    margin-top: 20px;
+    color: azure;
+}
+#left-form-h2, #left-form-p{
+    color: azure;
+}
+.foot-icon{
+    height: 32px;
+    margin-top: 35px;
+    
+}
+#foot-twit{
+    margin-left: 15px;
+}
+#foot-youtub{
+    margin-left: 15px;  
+}
+#right-form-sub{
+    margin-top: 90px;
+    color: azure;
+}
+#foot-email{
+margin-top: 30px;
+height: 38px;
+width: 260px;
+border-radius: 5px;
+border: 1px solid azure;
+background-color: rgb(26, 45, 45);
+padding-left: 5px;
+}
+#foot-email:hover{
+    background-color: rgb(30, 38, 38);
+}
+#last-sub{
+    margin-top: 30px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid azure;
+}
+#last-sub:hover{
+    border: 1px solid  rgb(18, 18, 18);
+    background-color: rgb(80, 124, 124) ;
+    color: azure;
+}
