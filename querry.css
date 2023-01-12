@@ -1,0 +1,19 @@
+@media screen and (max-width:767px) {
+    .port-img{
+        width: 40%;
+        
+    }
+    #plan-icon{
+       display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin-left: 0 !important;
+        margin: 0 auto !important;
+        gap: 50px !important;
+        margin-top: 50px !important;
+    }
+    #plan1, #plan2, #plan3, #plan4  {
+        margin: 0 auto;
+    }
+    
+}
